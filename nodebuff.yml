@@ -1,0 +1,26 @@
+id: NODEBUFF
+display-name: "NoDebuff"
+ranked: true
+health: 20
+hunger: 20
+saturation: 20
+natural-regeneration: false
+fall-damage: false
+fire-damage: true
+allow-block-place: false
+allow-block-break: false
+allow-ender-pearls: true
+allow-potions: false
+allow-golden-apples: true
+build-height: {min: -64, max: 320}
+world-border-radius: 50
+time-limit-seconds: 0
+knockback-profile: MODERN
+inventory:
+  - {slot: 0, item: DIAMOND_SWORD, enchantments: {SHARPNESS: 1}}
+  - {slot: 1, item: GOLDEN_APPLE, amount: 4}
+armor:
+  helmet: DIAMOND_HELMET
+  chestplate: DIAMOND_CHESTPLATE
+  leggings: DIAMOND_LEGGINGS
+  boots: DIAMOND_BOOTS

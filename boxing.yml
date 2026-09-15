@@ -1,0 +1,15 @@
+id: BOXING
+display-name: "Boxing"
+ranked: true
+health: 20
+hunger: 20
+natural-regeneration: true
+fall-damage: false
+fire-damage: false
+allow-block-place: false
+allow-block-break: false
+allow-ender-pearls: false
+allow-potions: false
+knockback-profile: HIGH_KNOCKBACK
+inventory: []
+armor: {}

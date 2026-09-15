@@ -1,0 +1,42 @@
+prefix: "<gray>[<gradient:#55f5ff:#6d5bff>FistPractice</gradient>]</gray> "
+
+general:
+  no-permission: "<red>You do not have permission to do that."
+  player-only: "<red>Only players can use this command."
+  player-not-found: "<red>That player could not be found."
+  invalid-usage: "<red>Usage: <white>{usage}"
+  reload-success: "<green>Configuration reloaded."
+
+duel:
+  request-sent: "<gray>Duel request sent to <white>{target}</white>."
+  request-received: "<yellow>{sender} has challenged you to a duel! Mode: <white>{mode}</white>, Kit: <white>{kit}</white>, Best of <white>{bestOf}</white>."
+  already-in-duel: "<red>You are already in a duel."
+  already-requested: "<red>You have already sent a request to that player."
+  cannot-duel-self: "<red>You cannot duel yourself."
+  request-expired: "<red>Your duel request to {target} expired."
+  request-declined: "<red>{target} declined your duel request."
+  request-accepted: "<green>{target} accepted your duel request!"
+
+party:
+  created: "<green>Party created."
+  disbanded: "<red>Your party has been disbanded."
+  invite-sent: "<gray>Invited <white>{target}</white> to your party."
+  invite-received: "<yellow>{sender} invited you to their party (<white>{party}</white>)."
+  already-in-party: "<red>That player is already in a party."
+  not-in-party: "<red>You are not in a party."
+  kicked: "<red>You have been kicked from the party."
+  joined: "<green>{player} joined the party."
+  left: "<yellow>{player} left the party."
+  too-large-for-mode: "<red>Your party is too large for this mode."
+
+queue:
+  already-queued: "<red>You are already in a queue."
+  joined: "<green>You joined the <white>{mode}</white> queue ({type})."
+  left: "<yellow>You left the queue."
+  match-found: "<green>Match found! Opponent: <white>{opponent}</white>"
+
+match:
+  no-arena-available: "<red>No arena is currently available for this mode."
+  kit-not-found: "<red>That kit does not exist."
+  mode-disabled: "<red>That game mode is disabled."
+  opponent-disconnected: "<yellow>Opponent disconnected. Waiting {seconds} seconds..."

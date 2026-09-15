@@ -1,0 +1,82 @@
+database:
+  type: SQLITE   # SQLITE | MYSQL | MARIADB
+  file: database.db
+
+party:
+  enabled: true
+  max-size: 8
+  leader-leave-action: TRANSFER   # TRANSFER | DISBAND
+  friendly-fire: false
+  persist-on-restart: false
+  invite-expiry-seconds: 30
+
+duel:
+  request-expiry-seconds: 30
+  allow-self-duel: false
+  default-best-of: 1
+
+queue:
+  ranked:
+    enabled: true
+    initial-range: 50
+    expansion:
+      enabled: true
+      interval-seconds: 30
+      amount: 50
+  unranked:
+    enabled: true
+
+match:
+  countdown-seconds: 5
+  default-best-of: 1
+  freeze-during-countdown: true
+
+reconnect:
+  enabled: true
+  grace-period-seconds: 15
+
+combat-log:
+  action: FORFEIT   # FORFEIT | IMMEDIATE_LOSS | GRACE_PERIOD
+
+rating:
+  starting-elo: 1000
+  provisional-matches: 10
+  k-factor-provisional: 64
+  k-factor-normal: 32
+  divisions:
+    - name: Bronze
+      min-elo: 0
+      sub-ranks: 5
+    - name: Silver
+      min-elo: 900
+      sub-ranks: 5
+    - name: Gold
+      min-elo: 1100
+      sub-ranks: 5
+    - name: Platinum
+      min-elo: 1300
+      sub-ranks: 5
+    - name: Diamond
+      min-elo: 1500
+      sub-ranks: 5
+    - name: Master
+      min-elo: 1750
+      sub-ranks: 1
+    - name: Grandmaster
+      min-elo: 2000
+      sub-ranks: 1
+
+arenas:
+  reset-strategy: SCHEMATIC_COPY   # SCHEMATIC_COPY | REGION_SNAPSHOT
+  rotation: RANDOM                 # RANDOM | SEQUENTIAL | PRIORITY
+
+history:
+  max-entries-per-player: 50
+
+discord:
+  enabled: false
+  webhook-url: ""
+
+hooks:
+  placeholderapi: true
+  vault: false

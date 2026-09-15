@@ -1,0 +1,89 @@
+name: FistPractice
+version: '${project.version}'
+main: com.fistpractice.FistPractice
+api-version: '1.20'
+author: FistPractice Team
+description: Complete Minecraft PvP Practice, Duel, Party & Competitive System
+softdepend: [PlaceholderAPI, Vault]
+
+commands:
+  duel:
+    description: Challenge a player to a duel
+    usage: /duel <player>
+  party:
+    aliases: [p]
+    description: Manage your party
+    usage: /party <subcommand>
+  queue:
+    description: Join a matchmaking queue
+    usage: /queue <mode> [ranked|unranked]
+  kit:
+    description: Manage kits and layouts
+    usage: /kit <subcommand>
+  profile:
+    description: View a player profile
+    usage: /profile [player]
+  stats:
+    description: View statistics
+    usage: /stats [player]
+  matchhistory:
+    description: View match history
+    usage: /matchhistory [player]
+  leaderboard:
+    description: View leaderboards
+    usage: /leaderboard [mode]
+  spectate:
+    description: Spectate a match
+    usage: /spectate <player>
+  tournament:
+    description: Tournament management
+    usage: /tournament <subcommand>
+  arena:
+    description: Arena management
+    usage: /arena <subcommand>
+  fistpractice:
+    aliases: [up]
+    description: Admin command
+    usage: /up <subcommand>
+
+permissions:
+  fistpractice.duel:
+    default: true
+  fistpractice.duel.ranked:
+    default: true
+  fistpractice.duel.custom:
+    default: true
+  fistpractice.party:
+    default: true
+  fistpractice.party.create:
+    default: true
+  fistpractice.party.invite:
+    default: true
+  fistpractice.party.kick:
+    default: true
+  fistpractice.party.promote:
+    default: true
+  fistpractice.party.duel:
+    default: true
+  fistpractice.party.queue:
+    default: true
+  fistpractice.party.chat:
+    default: true
+  fistpractice.party.size.8:
+    default: true
+  fistpractice.party.size.16:
+    default: false
+  fistpractice.party.size.32:
+    default: false
+  fistpractice.admin:
+    default: op
+  fistpractice.arena:
+    default: op
+  fistpractice.kit:
+    default: op
+  fistpractice.reload:
+    default: op
+  fistpractice.spectate:
+    default: true
+  fistpractice.tournament:
+    default: op

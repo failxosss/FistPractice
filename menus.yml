@@ -1,0 +1,60 @@
+main-menu:
+  title: "<dark_gray>Ultimate<gold>Practice"
+  size: 27
+  items:
+    duel:
+      slot: 10
+      material: DIAMOND_SWORD
+      name: "<white>Duels"
+      lore: ["<gray>Challenge another player"]
+    party:
+      slot: 12
+      material: PLAYER_HEAD
+      name: "<white>Party"
+      lore: ["<gray>Manage your party"]
+    queue:
+      slot: 14
+      material: COMPASS
+      name: "<white>Queues"
+      lore: ["<gray>Join matchmaking"]
+    profile:
+      slot: 16
+      material: BOOK
+      name: "<white>Profile"
+      lore: ["<gray>View your stats"]
+
+party-menu:
+  title: "<dark_gray>Party"
+  size: 27
+  items:
+    members:
+      slot: 10
+      material: PLAYER_HEAD
+    invite:
+      slot: 11
+      material: LIME_DYE
+    settings:
+      slot: 12
+      material: REDSTONE
+    party-duel:
+      slot: 13
+      material: NETHERITE_SWORD
+    party-queue:
+      slot: 14
+      material: COMPASS
+    party-chat:
+      slot: 15
+      material: WRITABLE_BOOK
+    split:
+      slot: 16
+      material: ANVIL
+    leave:
+      slot: 22
+      material: RED_DYE
+    disband:
+      slot: 24
+      material: BARRIER
+
+kit-editor:
+  title: "<dark_gray>Kit Editor"
+  size: 54

@@ -1,0 +1,11 @@
+id: default
+display-name: "Default Kit"
+items:
+  - {slot: 0, item: DIAMOND_SWORD}
+armor:
+  helmet: DIAMOND_HELMET
+  chestplate: DIAMOND_CHESTPLATE
+  leggings: DIAMOND_LEGGINGS
+  boots: DIAMOND_BOOTS
+health: 20
+hunger: 20
