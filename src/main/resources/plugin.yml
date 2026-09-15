@@ -2,7 +2,7 @@ name: FistPractice
 version: '${project.version}'
 main: com.fistpractice.FistPractice
 api-version: '1.20'
-author: FistPractice Team
+author: Failxos
 description: Complete Minecraft PvP Practice, Duel, Party & Competitive System
 softdepend: [PlaceholderAPI, Vault]
 
